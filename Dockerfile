@@ -13,7 +13,7 @@ RUN apt-get -y install \
 
 RUN apt-get -y install \
     curl \
-    openjdk-7-jre-headless \
+    openjdk-7-jdk \
     libcurl4-gnutls-dev \
     libzmq3-dev
 
