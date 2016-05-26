@@ -9,11 +9,9 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 RUN apt-get -y install \
-    build-essential python3-dev python3-pip python3-zmq
-
-RUN apt-get -y install \
+    build-essential python3-dev python3-pip python3-zmq \
     curl \
-    openjdk-7-jre-headless \
+    openjdk-8-jdk-headless \
     libcurl4-gnutls-dev \
     libzmq3-dev
 
